@@ -16,11 +16,17 @@ function theBeatlesPlay (musicians, instruments) {
 function johnLennonFacts (array) {
   var factsNow = [];
   for (let i = 0; i < array.length; i++) {
-  while (i < array.length) {
   factsNow.push(array[i] + "!!!");
-}
 }
 return factsNow;
 }
 
+function iLoveTheBeatles (number) {
+var timesLoved = [];
+do {
+    number++;
+    timesLoved.push("I love the Beatles!");
+} while (number !== 0);
+return timesLoved;
+}
 
