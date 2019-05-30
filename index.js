@@ -23,6 +23,7 @@ return factsNow;
 
 function iLoveTheBeatles (number) {
 var timesLoved = [];
+var i = 0;
 do {
     number++;
     timesLoved.push("I love the Beatles!");
